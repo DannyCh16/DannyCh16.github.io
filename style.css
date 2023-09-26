@@ -30,7 +30,7 @@ h1 {
 }
 
 .seccion-clara {
-  color: black;
+  color: rgb(0, 0, 0);
   background-color: rgb(182, 216, 193);
 }
 
@@ -76,7 +76,7 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color: #e3e3e3;
+  background-color: #9dc8af;
   min-height: 450px;
   text-align: center;
 }
@@ -113,7 +113,7 @@ h1 {
 .experiencia {
   padding: 40px 40px 60px 40px;
 }
-
+/*AGREGAR FORMATO PARA QUE SE ACOMODEN HORIZONTALMENTE*/
 .experiencia .columna {
   padding: 20px;
   border: 2px solid #8080804d;
@@ -126,12 +126,12 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #1b1b32;
+  background-color: #567f78c3;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
+  color: #adcb96;
   background-color: #0a0a23;
   padding: 8px 19px;
   border-radius: 50%;
@@ -141,16 +141,20 @@ h1 {
   font-size: 25px;
   font-weight: bold;
   margin: 10px 0;
+  color: rgb(255, 255, 255);
 }
 
 .badges-contenedor {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0;
+  
 }
 
 .badge {
   margin: 5px;
+  background-color: #a0c0c4;
+  color: rgb(11, 112, 87);
 }
 
 /* Proyectos */
@@ -221,9 +225,10 @@ h1 {
 .testimonios .carousel {
   max-width: 800px;
 }
-
+/* texto del carrusel */
 .carousel-item {
   height: 500px;
+
 }
 
 .carousel-item .container {
@@ -255,6 +260,8 @@ h1 {
 
 .testimonio-info p {
   margin-bottom: 0;
+  color: rgb(15, 96, 99);
+
 }
 
 .testimonio-footer .cliente {
@@ -296,7 +303,7 @@ h1 {
   color: white;
   font-weight: bold;
   background-color: transparent;
-  border: 2px solid white;
+  border: 2px solid rgb(255, 255, 255);
   padding: 1.25em 2em;
   margin: 10px;
   border-radius: 100px;
@@ -358,7 +365,7 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  border: 2px solid rgb(7, 60, 95);
 }
 
 .iconos-redes-sociales a:hover i {
